@@ -49,15 +49,15 @@ namespace PasswordCheck
             if(password.Any(char.IsWhiteSpace))
             {
                 return "Password cannot contain spaces";
-            } else if (password.Any(char.IsSymbol))
-            {
-                return "Password must contain at least one symbol";
             } else if (!password.Any(char.IsUpper))
             {
                 return "Password must contain at least one uppercase letter";
             } else if (!password.Any(char.IsLetter) && !password.Any(char.IsDigit))
             {
                 return "Password must contain at least one letter and digit";
+            } else if (!password.Any(ch => !char.IsLetterOrDigit(ch)))
+            {
+                return "Password must contain at least one symbol";
             }
             return "";
         }
