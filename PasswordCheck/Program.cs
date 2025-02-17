@@ -33,6 +33,11 @@ namespace PasswordCheck
             {
                 Console.WriteLine("Goodbye!");
             }
+            else
+            {
+                Console.WriteLine("Invalid Input");
+                DisplayMenu();
+            }
         }
 
         static void PasswordCheck()
