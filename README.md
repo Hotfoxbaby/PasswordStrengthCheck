@@ -5,6 +5,7 @@ It does this by analyzing the characters the password contains along with the le
 </p>
 <h2>How to Use</h2>
 <ol>
+	<li>Clone the code by hitting the clone button and installing it through any of the options under the Local tab.</li>
 	<li>Open the solution file for this project, PasswordCheck.sln and run it.</li>
 	<li>A terminal window should open with the menu.</li>
 	<li>Type in your input into the terminal.</li>
