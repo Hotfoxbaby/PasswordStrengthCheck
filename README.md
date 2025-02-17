@@ -21,6 +21,8 @@ It does this by analyzing the characters the password contains along with the le
 <li>PasswordChecker.cs- contains all of the code for the password checker.</li>
 </ul>
 <h2>Limitations of Use</h2>
+<p>This program was made in C#. This means that this program may run best on a Windows computer and may not work best on a Mac/Linux computer.
+</p>
 <p>This was intended for educational purposes. 
 This is not intended to be used on passwords for sensitive data, 
 even though this program doesn't save the data inputted. This should not be used as
