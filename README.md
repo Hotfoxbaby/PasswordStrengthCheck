@@ -29,4 +29,3 @@ even though this program doesn't save the data inputted. This should not be used
 a basis for the strength of a password, so the outputs should not dictate whether the 
 password inputted is strong or weak.
 Any intentions of using this code for malicious use is forbidden (eg. Stealing sensitive information, using information for ransom).</p>
-e
